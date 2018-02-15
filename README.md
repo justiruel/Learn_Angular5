@@ -7,4 +7,13 @@ ng new ng-try --style=scss --routing
 ```
 ng g c componentName
 ```
-directive
+## menggunakan [(ngModel)]="itemCount"
+- open app.module.ts, add code below :
+```
+import {FormsModule} from '@angular/forms';
+```
+```
+imports: [
+    FormsModule
+  ],
+```
