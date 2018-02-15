@@ -7,6 +7,10 @@ ng new ng-try --style=scss --routing
 ```
 ng g c componentName
 ```
+## Generate service
+```
+ng g s serviceName
+```
 ## Menggunakan [(ngModel)]="itemCount"
 - open app.module.ts, add code below :
 ```
