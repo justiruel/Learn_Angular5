@@ -48,3 +48,6 @@ ng serve
 ng build --prod
 ```
 hasilnya cek di folder <b>dist</b>
+
+## References
+- https://angular.io/guide/http
