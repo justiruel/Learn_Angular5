@@ -51,3 +51,7 @@ hasilnya cek di folder <b>dist</b>
 
 ## References
 - https://angular.io/guide/http
+
+## Must learn
+- Directive
+- Animation
