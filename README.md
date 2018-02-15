@@ -11,6 +11,10 @@ ng g c componentName
 ```
 ng g s serviceName
 ```
+## Generate directive
+```
+ng g d directiveName
+```
 ## Menggunakan [(ngModel)]="itemCount"
 - open app.module.ts, add code below :
 ```
@@ -33,6 +37,11 @@ kaitannya adalah dengan main.ts
 if (environment.production) {
   enableProdMode();
 }
+```
+
+## Run app
+```
+ng serve
 ```
 ## Deploy
 ```
