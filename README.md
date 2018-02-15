@@ -30,3 +30,8 @@ if (environment.production) {
   enableProdMode();
 }
 ```
+## Deploy
+```
+ng build --prod
+```
+hasilnya cek di folder <b>dist</b>
