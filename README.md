@@ -7,7 +7,7 @@ ng new ng-try --style=scss --routing
 ```
 ng g c componentName
 ```
-## menggunakan [(ngModel)]="itemCount"
+## Menggunakan [(ngModel)]="itemCount"
 - open app.module.ts, add code below :
 ```
 import {FormsModule} from '@angular/forms';
@@ -16,4 +16,17 @@ import {FormsModule} from '@angular/forms';
 imports: [
     FormsModule
   ],
+```
+## Enable production mode
+Buka environmentsenvironment.ts, jadikan production: true
+```
+export const environment = {
+  production: true
+};
+```
+kaitannya adalah dengan main.ts
+```
+if (environment.production) {
+  enableProdMode();
+}
 ```
