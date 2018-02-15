@@ -53,5 +53,5 @@ hasilnya cek di folder <b>dist</b>
 - https://angular.io/guide/http
 
 ## Must learn
-- Directive
+- Directive (https://www.youtube.com/watch?v=DNoPO-WrKyM)
 - Animation
