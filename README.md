@@ -7,3 +7,4 @@ ng new ng-try --style=scss --routing
 ```
 ng g c componentName
 ```
+directive
